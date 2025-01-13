@@ -1,4 +1,5 @@
-Hono learning app
+Hono playground app
+everything goes.
 
 ```
 npm install
