@@ -9,7 +9,10 @@ app.get('/', (c) => {
   return c.text('Hello Hono!');
 });
 app.get('/hello', (c) => {
-  return c.text('Hello World!');
+  return c.text('Hello !');
+});
+app.get('/404', (c) => {
+  return c.text('404 NOT FOUND', { status: 404 });
 });
 
 const port = 3000;
