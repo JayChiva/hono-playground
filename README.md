@@ -1,3 +1,5 @@
+Hono learning app
+
 ```
 npm install
 npm run dev
